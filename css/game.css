@@ -1,0 +1,101 @@
+/* 全体のフォントと色 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf6e4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+/* 全体枠 */
+.game {
+    text-align: center;
+    background-color: #fff8e1;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 2px dashed #c59b6d;
+    max-width: 800px;
+}
+/* ステータス枠 */
+#stait {
+    text-align: center;
+        background-color:whitesmoke;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        border: 2px dashed #c59b6d;
+        max-width: 400px;
+}
+/* タイトル */
+h1 {
+    font-size: 2.5em;
+    color: #f78fb3;
+    text-shadow: 1px 1px 2px #ffddcc;
+    margin-bottom: 20px;
+}
+/* キャラクター画像設定 */
+#character {
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    /* box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.3s;
+}
+/* レベルとポイント */
+#level,
+#points {
+    font-weight: bold;
+    color: #fa9eaf;
+    font-size: 1.2em;
+}
+/* ステータス入力エリア */
+div {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    margin: 10px 0;
+    color: #606c88;
+}
+
+input[type="number"] {
+    padding: 8px;
+    width: 60px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-left: 5px;
+    text-align: center;
+}
+
+button#calculate {
+    background-color: #fa9eaf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#calculate:hover {
+    background-color: #f78fb3;
+}
+
+#message {
+    font-size: 1.1em;
+    color: #fa9eaf;
+    margin-top: 15px;
+    height: 1.5em;
+    transition: opacity 0.3s ease;
+}

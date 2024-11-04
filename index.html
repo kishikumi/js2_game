@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>育成型ゲーム</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <div class="game">
+        <h1>健康維持しながらピジョンしよう！</h1>
+        <img id="character" src="img/egg.png" alt="卵">
+        <p>レベル: <span id="level">1</span></p>
+        <p>ポイント: <span id="points">0</span></p>
+        <p id="message"></p> 
+    
+     <div id="stait">
+        <h3>ステータス</h3>
+        <label>睡眠時間 (時間): <input type="number" id="sleep" min="0" max="24"></label><br>
+        <label>食事 (1-5): <input type="number" id="food" min="1" max="5"></label><br>
+        <label>運動時間 (時間): <input type="number" id="exercise" min="0" max="24"></label><br>
+        <button id="calculate">ポイント計算</button>
+      </div>
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
